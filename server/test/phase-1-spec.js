@@ -4,8 +4,6 @@ const expect = chai.expect;
 const { runSQL } = require('./utils/test-utils');
 const { Tree } = require('../db/models');
 
-console.log(process.env.DB_FILE)
-
 describe('Phase 1 Specs - Tree', () => {
   context('Invalid Data', () => {
     it('does not allow `tree` attribute to be empty', async () => {

@@ -4,7 +4,7 @@ const expect = chai.expect;
 const { runSQL } = require('./utils/test-utils');
 const { Insect } = require('../db/models');
 
-describe('Phase 1 Specs - Insect', () => {
+describe('Phase 3 Specs - Insect', () => {
   context('Invalid Data', () => {
     it('does not allow `name` attribute to be empty', async () => {
       try {
