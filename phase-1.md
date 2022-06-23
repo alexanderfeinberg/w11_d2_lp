@@ -10,8 +10,8 @@ attributes:
 
 * String `tree`
 * String `location`
-* Float `height_ft`
-* Float `ground_circumference_ft`
+* Float `heightFt`
+* Float `groundCircumferenceFt`
 
 ## Add constraints and validations
 

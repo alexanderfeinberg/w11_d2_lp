@@ -19,7 +19,7 @@ Open the new seed file in the folder __server/db/seeders__.
 Implement the necessary code in the `up` function to insert these 10 insects
 into the `Insects` table in the database.
 
-Implement the code needed in the `down` function in order to remove the 5 trees
+Implement the code needed in the `down` function in order to remove the 10 insects
 listed above from the database.
 
 > Tip: You can start with 1 to verify you have the structure right. If you
