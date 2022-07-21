@@ -39,7 +39,7 @@ Verify the `up` and `down` migrations look correct, and the table name is
 Just like you ran the migration to create the database (using the **Sequelize
 CLI**), you can now run the new migration you've created.
 
-> Remember: You'll need `dotenv` before `npx` in order to set the
+> Remember: You'll need `dotenv` after `npx` in order to set the
 > environment variable for the database file location.
 
 If all goes well, the last line of output should say "migrated" followed by the
